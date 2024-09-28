@@ -13,6 +13,7 @@ namespace Task55
         {
             Console.Write("Введите целое число N, размер квадратной матрицы: ");
             int n = Convert.ToInt32(Console.ReadLine());
+            int[,] array = new int[n, n];
 
             for (int i = 0; i < n; i++)
             {
@@ -20,12 +21,20 @@ namespace Task55
                 {
                     if (i % 2 == j % 2)
                     {
-                        Console.Write(1);
+                        array[i, j] = 1;
                     }
                     else
                     {
-                        Console.Write(0);
+                        array[i, j] = 0;
                     }
+                }
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    Console.Write(array[i, j]);
                 }
                 Console.WriteLine();
             }

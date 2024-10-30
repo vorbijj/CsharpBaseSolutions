@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task151
 {
+    //Разработать интерфейс ISeries генерации ряда чисел. Разработать классы ArithProgression и GeomProgression, которые реализуют интерфейс ISeries.
     internal class Program15_1
     {
         static void Main(string[] args)

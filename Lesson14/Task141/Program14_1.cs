@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task141
 {
+    //Разработать абстрактный класс Animal, который описывает животное. Разработать классы Cat и Dog, которые реализуют абстрактный класс Animal.
     internal class Program14_1
     {
         static void Main(string[] args)

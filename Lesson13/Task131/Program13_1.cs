@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task131
 {
+    //Задан класс Building. Разработать класс MultiBuilding, который наследует возможности класса Building.
     internal class Program13_1
     {
         static void Main(string[] args)
